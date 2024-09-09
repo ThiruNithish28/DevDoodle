@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+.btn{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+
+
+body{
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.829);
+    overflow: hidden;
+}
+
+
+.nav{
+    padding: .5rem 2rem;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+}
+.icon-btn{
+    width: 38px;
+    height: 34px;
+    overflow: hidden;
+    
+}
+.icon-btn:hover{
+    width: auto;
+    height: auto;
+    
+}
+.main{
+    height: calc(100vh - 48.76px);
+    
+}
+
+.plane-top{
+   
+    overflow: hidden;
+}
+
+.code-editior__container{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.code-editior__title{
+    padding: .5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.644);
+    text-transform: uppercase;
+    background-color: rgb(112, 112, 112);
+}
+
+.CodeMirror,.react-codemirror2 ,.code-mirror-wrapper {
+    height: 100% !important; 
+    width: 100% !important;  
+}
+
+
+.output{
+    flex: 50% 1 1;
+    background-color: aliceblue;
+}
