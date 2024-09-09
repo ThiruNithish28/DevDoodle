@@ -48,7 +48,7 @@ function App() {
     
       <Header download={downloadZip} />
       <main className='main d-flex flex-column'>
-        <ResizableBox className="plane-top d-flex flex-column"
+        <ResizableBox className="plane-top d-flex "
                 width={Infinity} 
                 height={400} // Initial height
                 minConstraints={[100, 100]} // Minimum width and height
